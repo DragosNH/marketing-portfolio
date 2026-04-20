@@ -1,12 +1,17 @@
-:root{
+:root {
   --primary-blue: #0F1F3A;
   --primary-orange: #FF7A1A;
   --bk-color: #F4F4F4;
   --white: #FFFFFF;
   --dark-tone: #1A1A1A;
-  --light-blue:#4A5A78;
+  --light-blue: #4A5A78;
   --muted-orange: #F2A45A;
   --cool-grey: #D9D9D9;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 61em;
 }
 
 /* --------- Scroll animation --------- */
