@@ -11,14 +11,17 @@
 
 <body>
 
-    <div>
-        <img src="assets/images/logo.webp" alt="Page logo" class="menu-arrow" />
-        <div class="menu-container"></div>
-    </div>
+
     <nav>
-        <a href="/" data-link>Home</a>
-        <a href="/about" data-link>About</a>
-        <a href="/projects" data-link>Projects</a>
+        <img src="assets/images/logo.webp" alt="Page logo" class="menu-arrow" />
+
+        <div class="menu-container">
+            <button class="menu-item closeBtn">X</button>
+            
+            <a href="/" data-link class="menu-item">Home</a>
+            <a href="/about" data-link class="menu-item">About</a>
+            <a href="/projects" data-link class="menu-item">Projects</a>
+        </div>
     </nav>
 
     <main id="app"></main>

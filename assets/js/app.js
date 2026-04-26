@@ -1,4 +1,5 @@
 import { navigate } from "./router.js";
+import Menu from "./components/Menu.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   navigate("/");
@@ -9,4 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
       navigate(e.target.getAttribute("href"));
     });
   });
+
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    new Menu();
+  });
