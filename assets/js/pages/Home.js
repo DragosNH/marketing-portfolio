@@ -13,6 +13,13 @@ export default class Home {
   }
 
   afterRender() {
-    // Add animations, event listeners, etc.
+    const menuArrow = document.querySelector(".menu-arrow");
+    const menuContainer = document.querySelector(".menu-container");
+
+    menuArrow.addEventListener("click", () => {
+      if(menuContainer.style.width < "1vw"){
+        menuContainer.style.width = "100vw"
+      }
+    });
   }
 }

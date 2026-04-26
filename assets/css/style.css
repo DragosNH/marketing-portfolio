@@ -14,6 +14,21 @@ body {
   max-width: 61em;
 }
 
+/* --------- Menu --------- */
+.menu-arrow {
+  width: 4em;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}
+
+.menu-container {
+  width: 2px; height: 100vh;
+  background-color: var(--dark-tone);
+  position: absolute;
+  left: 0;
+}
+
 /* --------- Scroll animation --------- */
 .scroll-item {
   opacity: 0;
