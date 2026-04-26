@@ -12,6 +12,8 @@
 body {
   margin: 0 auto;
   max-width: 61em;
+  background-color: var(--bk-color);
+  color: var(--primary-blue);
 }
 
 /* --------- Menu --------- */
@@ -35,6 +37,38 @@ body {
 
 .hidden {
   display: none;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  flex-direction: column;
+}
+
+.menu-container .closeBtn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: var(--cool-grey);
+  font-size: 2em;
+}
+
+.menu-container a:hover {
+  text-decoration: underline;
+}
+
+.closeBtn{
+  background-color: var(--dark-tone);
+  border: none;
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--cool-grey);
 }
 
 

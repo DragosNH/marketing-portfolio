@@ -16,6 +16,9 @@ export default class Menu {
         if (this.closeBtn) {
             this.closeBtn.addEventListener("click", () => this.toggleMenu());
         }
+        this.menuItems.forEach(item => {
+            item.addEventListener("click", () => this.closeMenu());
+        });
 
     }
 
