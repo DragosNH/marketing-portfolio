@@ -1,3 +1,20 @@
+import { navigate } from "./router.js";
+
+document.addEventListener("DOMContentLoaded", () => {
+  navigate("/");
+
+  document.querySelectorAll("a[data-link]").forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      navigate(e.target.getAttribute("href"));
+    });
+  });
+});
+
+
+
+
+
 const items = document.querySelectorAll(".scroll-item");
 
 // Assign alternating directions
