@@ -32,7 +32,8 @@ body {
   left: 0;
   top: 0;
   overflow: hidden;
-  transition: width 0.3s ease;
+  transition: width 0.3s ease, background-color 0.3s ease;
+
 }
 
 .hidden {
