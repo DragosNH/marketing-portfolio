@@ -12,6 +12,7 @@
 body {
   margin: 0 auto;
   max-width: 61em;
+  height: 100vh;
   background-color: var(--bk-color);
   color: var(--primary-blue);
 }

@@ -6,13 +6,16 @@ export default class Home {
   render() {
     return `
       <section class="home">
-        <h1>Welcome</h1>
-        <p>I am a marketing assistant specializing in...</p>
+        <div class="logo"><img src="assets/images/logo.webp" class="logo-img" alt="logo" /></div>
+        <div class="info"> 
+          <h1>Dragoş ENACHE</h1>
+          <p>Apprenti en Marketing Digital & Webdesign</p>
+        </div>
       </section>
     `;
   }
 
   afterRender() {
-      
+
   }
 }
