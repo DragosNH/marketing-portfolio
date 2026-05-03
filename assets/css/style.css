@@ -17,7 +17,23 @@ body {
   color: var(--primary-blue);
   font-family: "Old Standard TT", serif;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
 }
+
+main {
+  flex: 1;
+}
+
+body > :first-child{
+  align-self: center;
+}
+
+body > :nth-child(1){
+  align-self: flex-end;
+  
+}
+
 
 h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
@@ -77,6 +93,15 @@ h1, h2, h3, h4 {
   font-size: 2em;
   font-weight: bold;
   color: var(--cool-grey);
+}
+
+
+/* --------- Footer --------- */
+.footer{
+  background-color: var(--dark-tone);
+  color: var(--muted-orange);
+  height: 150px;
+  width: 100vw;
 }
 
 
