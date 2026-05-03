@@ -1,5 +1,5 @@
 import { navigate } from "./router.js";
-import Menu from "./components/Menu.js";
+import Navbar from "./components/Navbar.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   navigate("/");
@@ -14,5 +14,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    new Menu();
+    new Navbar();
   });
