@@ -15,6 +15,12 @@ body {
   height: 100vh;
   background-color: var(--bk-color);
   color: var(--primary-blue);
+  font-family: "Old Standard TT", serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* --------- Menu --------- */
