@@ -1,32 +1,72 @@
 :root {
-  --primary-blue: #0F1F3A;
-  --primary-orange: #FF7A1A;
-  --bk-color: #F4F4F4;
-  --white: #FFFFFF;
-  --dark-tone: #1A1A1A;
-  --light-blue: #4A5A78;
-  --muted-orange: #F2A45A;
-  --cool-grey: #D9D9D9;
+    --primary-blue: #0F1F3A;
+    --primary-orange: #FF7A1A;
+    --bk-color: #F4F4F4;
+    --white: #FFFFFF;
+    --dark-tone: #1A1A1A;
+    --light-blue: #4A5A78;
+    --muted-orange: #F2A45A;
+    --cool-grey: #D9D9D9;
 }
 
-.footer{
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.social-links{
+.social-links {
     margin-right: 50px;
 }
 
-.social-logo{
-    width: 35px;
+.social-logo {
+  width: 35px;
+  transition: filter 0.25s ease, transform 0.25s ease;
 }
 
-.logo{
+.social-logo:hover {
+  transform: translateY(-4px);
+  opacity: 0.8;
+}
+
+.social-logo.linkedin:hover {
+  content: url('../images/linkedin-logo.png');
+  opacity: 1;
+}
+
+.social-logo.instagram:hover {
+  content: url('../images/instagram-logo.png');
+  opacity: 1;
+}
+
+.social-logo.github:hover {
+  content: url('../images/github-logo.png');
+  opacity: 1;
+}
+
+.logo {
     width: 100px;
     background-color: var(--bk-color);
     padding: 8px;
     margin-left: 50px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    margin: 5px auto;
+}
+
+.footer-link {
+    color: var(--primary-orange);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.footer-link:hover {
+    color: var(--muted-orange);
 }

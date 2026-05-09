@@ -99,7 +99,7 @@ h1, h2, h3, h4 {
 /* --------- Footer --------- */
 .footer{
   background-color: var(--dark-tone);
-  color: var(--muted-orange);
+  color: var(--primary-orange);
   height: 150px;
   width: 100vw;
 }
