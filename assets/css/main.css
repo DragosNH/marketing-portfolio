@@ -1,28 +1,28 @@
 :root {
-  --primary-blue: #0F1F3A;
-  --primary-orange: #FF7A1A;
-  --bk-color: #F4F4F4;
-  --white: #FFFFFF;
-  --dark-tone: #1A1A1A;
-  --light-blue: #4A5A78;
-  --muted-orange: #F2A45A;
-  --cool-grey: #D9D9D9;
+    --primary-blue: #0F1F3A;
+    --primary-orange: #FF7A1A;
+    --bk-color: #F4F4F4;
+    --white: #FFFFFF;
+    --dark-tone: #1A1A1A;
+    --light-blue: #4A5A78;
+    --muted-orange: #F2A45A;
+    --cool-grey: #D9D9D9;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 main {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
-.home{
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,19 +32,31 @@ main {
     box-shadow: 10px 10px var(--cool-grey);
 }
 
-.home-title{
+.home-title {
     margin: 5px auto;
     font-size: 40px;
 }
 
-.home-txt{
+.home-txt {
     margin-top: 5px;
     color: var(--primary-orange);
     font-size: 17px;
     font-weight: 600;
 }
 
-.logo-img{
+.logo-img {
     width: 100px;
     margin-right: 10px;
+}
+
+/* ------ Media query for phone ------ */
+@media only screen and (max-width: 600px) {
+    .home-title {
+        font-size: 28px;
+    }
+
+    .home-txt {
+        font-size: 12px;
+        font-weight: 800;
+    }
 }
