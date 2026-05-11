@@ -6,8 +6,16 @@ export default class About {
   render() {
     return `
       <section class="about">
-        <h1>About Me</h1>
-        <p>I am a marketing assistant specializing in...</p>
+      <!-- --------- Presentation ---------  -->
+        <div class="presentation">
+          <h1 class="about-title">À propos</h1>
+          <p class="about-txt">Passionné par le développement web et le graphisme, je recherche une alternance en marketing digital afin de mettre mes compétences au service de projets créatifs et innovants.</p>
+        </div>
+      <!-- --------- Coding Skills ---------  -->
+        <div class="coding-skills">
+          <h2 class="sub-title">Competences web</h2>
+        </div>
+
       </section>
     `;
   }
