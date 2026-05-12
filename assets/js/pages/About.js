@@ -33,6 +33,28 @@ export default class About {
   }
 
   afterRender() {
-    // Add animations, event listeners, etc.
+    const icons = document.querySelectorAll(".icon");
+    icons[0].style.marginLeft = "0px";
+
+    icons.forEach(icon => {
+      icon.addEventListener("mouseover", () => {
+        const currentWidth = parseInt(window.getComputedStyle(icon).width);
+        const currentMargin = parseInt(window.getComputedStyle(icon).margin);
+        icon.style.width = currentWidth + 10 + "px";
+        icon.style.margin = currentMargin - 5 + "px";
+        icons[0].style.marginLeft = "0px";
+      });
+
+      icon.addEventListener("mouseout", () => {
+        const originalWidth = parseInt(window.getComputedStyle(icon).width);
+        const originalMargin = parseInt(window.getComputedStyle(icon).margin);
+        icon.style.width = originalWidth - 10 + "px";
+        icon.style.margin = originalMargin + 5 + "px";
+        icons[0].style.marginLeft = "0px";
+      });
+    });
+
+
+
   }
 }
