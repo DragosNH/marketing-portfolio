@@ -48,7 +48,11 @@ export default class About {
         <p><strong>Anglais</strong> (Courant)</p>
         <p><strong>Alleman</strong> (Bases)</p>
       </div>
-      
+
+      <!-- --------- Languages ---------  -->
+      <h2 class="diplomas">Diplomes</h2>
+      <h3>Titre pro (bac + 2) Développement web et web mobile - Greta Alsace Sud - Mulhouse</h3>
+      <h3>Licence (bac + 3) Développement aplications orientée objet - Serfa - Mulhouse</h3>
 
       </section>
     `;

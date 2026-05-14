@@ -1,6 +1,7 @@
 .about{
-    margin: 50px 10%;
+    margin: 150px 0;
     overflow-x: visible;
+    overflow-y:unset;
 }
 
 .icon{
