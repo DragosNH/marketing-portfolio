@@ -24,8 +24,21 @@ export default class About {
             <img src="../../../assets/images/graphics/Designer.png" alt="Affinity Designer Logo" class="icon" />
             <img src="../../../assets/images/graphics/Publisher.png" alt="Affinity Publisher Logo" class="icon" />
             <img src="../../../assets/images/graphics/Clip_Studio_Paint.png" alt="Clip Studio Paint Logo" class="icon" />
-
           </div>
+
+          <h2 class="sub-title">Competences languages de code</h2>
+          <div class="icons">
+            <img src="../../../assets/images/coding/html.png" alt="HTML5 Logo" class="icon" />
+            <img src="../../../assets/images/coding/css3.png" alt="CSS3 Logo" class="icon" />
+            <img src="../../../assets/images/coding/javascript.png" alt="JavaScript Logo" class="icon" />
+            <img src="../../../assets/images/coding/react.png" alt="React.js Logo" class="icon" />
+            <img src="../../../assets/images/coding/three.png" alt="Three.js Logo" class="icon" />
+            <img src="../../../assets/images/coding/python.png" alt="Python Logo" class="icon" />
+            <img src="../../../assets/images/coding/django.png" alt="Django Logo" class="icon" />
+            <img src="../../../assets/images/coding/c.png" alt="C sharp Logo" class="icon" />
+            <img src="../../../assets/images/coding/unity.png" alt="Unity Logo" class="icon" />
+          </div>
+
         </div>
 
       </section>
@@ -35,7 +48,8 @@ export default class About {
   afterRender() {
     const icons = document.querySelectorAll(".icon");
     icons[0].style.marginLeft = "0px";
-
+    icons[9].style.marginLeft = "0px";
+    
     icons.forEach(icon => {
       icon.addEventListener("mouseover", () => {
         const currentWidth = parseInt(window.getComputedStyle(icon).width);
@@ -43,6 +57,7 @@ export default class About {
         icon.style.width = currentWidth + 10 + "px";
         icon.style.margin = currentMargin - 5 + "px";
         icons[0].style.marginLeft = "0px";
+        icons[9].style.marginLeft = "0px";
       });
 
       icon.addEventListener("mouseout", () => {
@@ -51,6 +66,7 @@ export default class About {
         icon.style.width = originalWidth - 10 + "px";
         icon.style.margin = originalMargin + 5 + "px";
         icons[0].style.marginLeft = "0px";
+        icons[9].style.marginLeft = "0px";
       });
     });
 
