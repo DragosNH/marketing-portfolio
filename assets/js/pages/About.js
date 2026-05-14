@@ -44,9 +44,9 @@ export default class About {
       <!-- --------- Languages ---------  -->
       <h2 class="sub-title">Langues</h2>
       <div class="languages">
-        <p>Roumain (Langue maternelle)</p>
-        <p>Anglais (Courant)</p>
-        <p>Alleman (Bases)</p>
+        <p><strong>Roumain</strong> (Langue maternelle)</p>
+        <p><strong>Anglais</strong> (Courant)</p>
+        <p><strong>Alleman</strong> (Bases)</p>
       </div>
       
 
