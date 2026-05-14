@@ -56,8 +56,6 @@ export default class About {
         const currentMargin = parseInt(window.getComputedStyle(icon).margin);
         icon.style.width = currentWidth + 10 + "px";
         icon.style.margin = currentMargin - 5 + "px";
-        icons[0].style.marginLeft = "0px";
-        icons[9].style.marginLeft = "0px";
       });
 
       icon.addEventListener("mouseout", () => {
