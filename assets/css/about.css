@@ -1,3 +1,8 @@
+.about{
+    margin: 50px 10%;
+    overflow-x: visible;
+}
+
 .icon{
     width: 50px;
     margin: 15px 15px 15px 15px;
