@@ -11,7 +11,7 @@ export default class About {
           <h1 class="about-title">À propos</h1>
           <p class="about-txt">Passionné par le développement web et le graphisme, je recherche une alternance en marketing digital afin de mettre mes compétences au service de projets créatifs et innovants.</p>
         </div>
-      <!-- --------- graphic Skills ---------  -->
+      <!-- --------- Graphic Skills ---------  -->
         <div class="graphic-skills">
           <h2 class="sub-title">Competences logiciels graphiques</h2>
           <div class="icons">
@@ -25,21 +25,30 @@ export default class About {
             <img src="../../../assets/images/graphics/Publisher.png" alt="Affinity Publisher Logo" class="icon" />
             <img src="../../../assets/images/graphics/Clip_Studio_Paint.png" alt="Clip Studio Paint Logo" class="icon" />
           </div>
-
-          <h2 class="sub-title">Competences languages de code</h2>
-          <div class="icons">
-            <img src="../../../assets/images/coding/html.png" alt="HTML5 Logo" class="icon" />
-            <img src="../../../assets/images/coding/css3.png" alt="CSS3 Logo" class="icon" />
-            <img src="../../../assets/images/coding/javascript.png" alt="JavaScript Logo" class="icon" />
-            <img src="../../../assets/images/coding/react.png" alt="React.js Logo" class="icon" />
-            <img src="../../../assets/images/coding/three.png" alt="Three.js Logo" class="icon" />
-            <img src="../../../assets/images/coding/python.png" alt="Python Logo" class="icon" />
-            <img src="../../../assets/images/coding/django.png" alt="Django Logo" class="icon" />
-            <img src="../../../assets/images/coding/c.png" alt="C sharp Logo" class="icon" />
-            <img src="../../../assets/images/coding/unity.png" alt="Unity Logo" class="icon" />
-          </div>
-
         </div>
+
+      <!-- --------- Coding Skills ---------  -->
+        <h2 class="sub-title">Competences languages de code</h2>
+        <div class="icons">
+          <img src="../../../assets/images/coding/html.png" alt="HTML5 Logo" class="icon" />
+          <img src="../../../assets/images/coding/css3.png" alt="CSS3 Logo" class="icon" />
+          <img src="../../../assets/images/coding/javascript.png" alt="JavaScript Logo" class="icon" />
+          <img src="../../../assets/images/coding/react.png" alt="React.js Logo" class="icon" />
+          <img src="../../../assets/images/coding/three.png" alt="Three.js Logo" class="icon" />
+          <img src="../../../assets/images/coding/python.png" alt="Python Logo" class="icon" />
+          <img src="../../../assets/images/coding/django.png" alt="Django Logo" class="icon" />
+          <img src="../../../assets/images/coding/c.png" alt="C sharp Logo" class="icon" />
+          <img src="../../../assets/images/coding/unity.png" alt="Unity Logo" class="icon" />
+        </div>
+
+      <!-- --------- Languages ---------  -->
+      <h2 class="sub-title">Langues</h2>
+      <div class="languages">
+        <p>Roumain (Langue maternelle)</p>
+        <p>Anglais (Courant)</p>
+        <p>Alleman (Bases)</p>
+      </div>
+      
 
       </section>
     `;
@@ -67,8 +76,6 @@ export default class About {
         icons[9].style.marginLeft = "0px";
       });
     });
-
-
 
   }
 }
