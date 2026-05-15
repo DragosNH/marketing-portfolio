@@ -96,33 +96,28 @@ export default class About {
             <img src="../../../assets/images/coding/unity.png" alt="Unity Logo" class="icon" />
             <p>Unity</p>
           </div>
-          
-
         </div>
         <br /><br />
 
       <!-- --------- Languages ---------  -->
-      <h2 class="sub-title">Langues</h2>
-      <div class="languages">
-        <p><strong>Roumain</strong> (Langue maternelle)</p>
-        <p><strong>Anglais</strong> (Courant)</p>
-        <p><strong>Alleman</strong> (Bases)</p>
-      </div>
-      <br /><br />
+        <h2 class="sub-title">Langues</h2>
+        <div class="languages">
+          <p><strong>Roumain</strong> (Langue maternelle)</p>
+          <p><strong>Anglais</strong> (Courant)</p>
+          <p><strong>Alleman</strong> (Bases)</p>
+        </div>
+        <br /><br />
 
       <!-- --------- Languages ---------  -->
-      <h2 class="diplomas">Diplomes</h2>
-      <h3>Titre pro (bac + 2) Développement web et web mobile — Greta Alsace Sud - Mulhouse</h3>
-      <h3>Licence (bac + 3) Développement aplications orientée objet — Serfa - Mulhouse</h3>
-
+        <h2 class="diplomas">Diplomes</h2>
+        <h3>Titre pro (bac + 2) Développement web et web mobile — Greta Alsace Sud - Mulhouse</h3>
+        <h3>Licence (bac + 3) Développement aplications orientée objet — Serfa - Mulhouse</h3>
       </section>
     `;
   }
 
   afterRender() {
     const icons = document.querySelectorAll(".icon");
-    // icons[0].style.marginLeft = "0px";
-    // icons[9].style.marginLeft = "0px";
     
     icons.forEach(icon => {
       icon.addEventListener("mouseover", () => {
@@ -137,8 +132,6 @@ export default class About {
         const originalMargin = parseInt(window.getComputedStyle(icon).margin);
         icon.style.width = originalWidth - 10 + "px";
         icon.style.margin = originalMargin + 5 + "px";
-        // icons[0].style.marginLeft = "0px";
-        // icons[9].style.marginLeft = "0px";
       });
     });
 
