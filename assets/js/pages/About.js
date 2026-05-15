@@ -11,6 +11,8 @@ export default class About {
           <h1 class="about-title">À propos</h1>
           <p class="about-txt">Passionné par le développement web et le graphisme, je recherche une alternance en marketing digital afin de mettre mes compétences au service de projets créatifs et innovants.</p>
         </div>
+        <br /><br />
+        
       <!-- --------- Graphic Skills ---------  -->
         <div class="graphic-skills">
           <h2 class="sub-title">Competences logiciels graphiques</h2>
@@ -26,6 +28,7 @@ export default class About {
             <img src="../../../assets/images/graphics/Clip_Studio_Paint.png" alt="Clip Studio Paint Logo" class="icon" />
           </div>
         </div>
+        <br /><br />
 
       <!-- --------- Coding Skills ---------  -->
         <h2 class="sub-title">Competences languages de code</h2>
@@ -40,6 +43,7 @@ export default class About {
           <img src="../../../assets/images/coding/c.png" alt="C sharp Logo" class="icon" />
           <img src="../../../assets/images/coding/unity.png" alt="Unity Logo" class="icon" />
         </div>
+        <br /><br />
 
       <!-- --------- Languages ---------  -->
       <h2 class="sub-title">Langues</h2>
@@ -48,11 +52,12 @@ export default class About {
         <p><strong>Anglais</strong> (Courant)</p>
         <p><strong>Alleman</strong> (Bases)</p>
       </div>
+      <br /><br />
 
       <!-- --------- Languages ---------  -->
       <h2 class="diplomas">Diplomes</h2>
-      <h3>Titre pro (bac + 2) Développement web et web mobile - Greta Alsace Sud - Mulhouse</h3>
-      <h3>Licence (bac + 3) Développement aplications orientée objet - Serfa - Mulhouse</h3>
+      <h3>Titre pro (bac + 2) Développement web et web mobile — Greta Alsace Sud - Mulhouse</h3>
+      <h3>Licence (bac + 3) Développement aplications orientée objet — Serfa - Mulhouse</h3>
 
       </section>
     `;
