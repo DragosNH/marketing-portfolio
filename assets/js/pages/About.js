@@ -13,6 +13,19 @@ export default class About {
         </div>
         <br /><br />
 
+      <!-- --------- Skills ---------  -->
+
+        <div class="skills">
+          <h2 class="sub-title">Competences</h2>
+          <p class="skill">Mise en page WordPress.</p>
+          <p class="skill">Gestion des réseaux sociaux.</p>
+          <p class="skill">Conception d'identités visuelles.</p>
+          <p class="skill">Création de contenu visuel et digital.</p>
+          <p class="skill">Conception des sites web & applications mobiles.</p>
+          <p class="skill">Mise en page pour supports digitaux et imprimés.</p>
+        </div>
+        <br /><br />
+
       <!-- --------- Graphic Skills ---------  -->
         <div class="graphic-skills">
           <h2 class="sub-title">Competences logiciels graphiques</h2>
