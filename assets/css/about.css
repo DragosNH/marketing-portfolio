@@ -4,6 +4,21 @@
     overflow-y:unset;
 }
 
+.icons{
+    display: flex;
+}
+
+.icon-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-cont p{
+    margin:0;
+}
+
 .icon{
     width: 50px;
     margin: 15px 15px 15px 15px;

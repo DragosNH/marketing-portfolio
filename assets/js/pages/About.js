@@ -12,20 +12,47 @@ export default class About {
           <p class="about-txt">Passionné par le développement web et le graphisme, je recherche une alternance en marketing digital afin de mettre mes compétences au service de projets créatifs et innovants.</p>
         </div>
         <br /><br />
-        
+
       <!-- --------- Graphic Skills ---------  -->
         <div class="graphic-skills">
           <h2 class="sub-title">Competences logiciels graphiques</h2>
           <div class="icons">
-            <img src="../../../assets/images/graphics/Photoshop.png" alt="Photoshop Logo" class="icon" />
-            <img src="../../../assets/images/graphics/Illustrator.png" alt="Illustrator Logo" class="icon" />
-            <img src="../../../assets/images/graphics/InDesign.png" alt="InDesign Logo" class="icon" />
-            <img src="../../../assets/images/graphics/premiere-pro.png" alt="Premiere Pro Logo" class="icon" />
-            <img src="../../../assets/images/graphics/figma.png" alt="Figma Logo" class="icon" />
-            <img src="../../../assets/images/graphics/Photo.png" alt="Affinity Photo Logo" class="icon" />
-            <img src="../../../assets/images/graphics/Designer.png" alt="Affinity Designer Logo" class="icon" />
-            <img src="../../../assets/images/graphics/Publisher.png" alt="Affinity Publisher Logo" class="icon" />
-            <img src="../../../assets/images/graphics/Clip_Studio_Paint.png" alt="Clip Studio Paint Logo" class="icon" />
+            <div class="icon-cont">
+              <img src="../../../assets/images/graphics/Photoshop.png" alt="Photoshop Logo" class="icon" />
+              <p>Photoshop</p>
+            </div>
+            <div class="icon-cont">
+              <img src="../../../assets/images/graphics/Illustrator.png" alt="Illustrator Logo" class="icon" />
+              <p>Illustrator</p>
+            </div>
+            <div class="icon-cont">
+              <img src="../../../assets/images/graphics/InDesign.png" alt="InDesign Logo" class="icon" />
+              <p>InDesign</p>
+            </div>
+            <div class="icon-cont">
+              <img src="../../../assets/images/graphics/premiere-pro.png" alt="Premiere Pro Logo" class="icon" />
+              <p>Premiere Pro</p>
+            </div>
+            <div class="icon-cont">
+              <img src="../../../assets/images/graphics/figma.png" alt="Figma Logo" class="icon" />
+              <p>Figma</p>
+            </div>
+            <div class="icon-cont">
+              <img src="../../../assets/images/graphics/Photo.png" alt="Affinity Photo Logo" class="icon" />
+              <p>Photo</p>
+            </div>
+            <div class="icon-cont">
+              <img src="../../../assets/images/graphics/Designer.png" alt="Affinity Designer Logo" class="icon" />
+              <p>Designer</p>
+            </div>
+            <div class="icon-cont">
+              <img src="../../../assets/images/graphics/Publisher.png" alt="Affinity Publisher Logo" class="icon" />
+              <p>Publisher</p>
+            </div>
+            <div class="icon-cont">
+              <img src="../../../assets/images/graphics/Clip_Studio_Paint.png" alt="Clip Studio Paint Logo" class="icon" />
+              <p>Clip Studio</p>
+            </div>
           </div>
         </div>
         <br /><br />
@@ -33,15 +60,44 @@ export default class About {
       <!-- --------- Coding Skills ---------  -->
         <h2 class="sub-title">Competences languages de code</h2>
         <div class="icons">
-          <img src="../../../assets/images/coding/html.png" alt="HTML5 Logo" class="icon" />
-          <img src="../../../assets/images/coding/css3.png" alt="CSS3 Logo" class="icon" />
-          <img src="../../../assets/images/coding/javascript.png" alt="JavaScript Logo" class="icon" />
-          <img src="../../../assets/images/coding/react.png" alt="React.js Logo" class="icon" />
-          <img src="../../../assets/images/coding/three.png" alt="Three.js Logo" class="icon" />
-          <img src="../../../assets/images/coding/python.png" alt="Python Logo" class="icon" />
-          <img src="../../../assets/images/coding/django.png" alt="Django Logo" class="icon" />
-          <img src="../../../assets/images/coding/c.png" alt="C sharp Logo" class="icon" />
-          <img src="../../../assets/images/coding/unity.png" alt="Unity Logo" class="icon" />
+          <div class="icon-cont">
+            <img src="../../../assets/images/coding/html.png" alt="HTML5 Logo" class="icon" />
+            <p>HTML</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/coding/css3.png" alt="CSS3 Logo" class="icon" />
+            <p>CSS</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/coding/javascript.png" alt="JavaScript Logo" class="icon" />
+            <p>JavaScript</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/coding/react.png" alt="React.js Logo" class="icon" />
+            <p>React.js</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/coding/three.png" alt="Three.js Logo" class="icon" />
+            <p>Three.js</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/coding/python.png" alt="Python Logo" class="icon" />
+            <p>Python</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/coding/django.png" alt="Django Logo" class="icon" />
+            <p>Django</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/coding/c.png" alt="C sharp Logo" class="icon" />
+            <p>C#</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/coding/unity.png" alt="Unity Logo" class="icon" />
+            <p>Unity</p>
+          </div>
+          
+
         </div>
         <br /><br />
 
@@ -65,8 +121,8 @@ export default class About {
 
   afterRender() {
     const icons = document.querySelectorAll(".icon");
-    icons[0].style.marginLeft = "0px";
-    icons[9].style.marginLeft = "0px";
+    // icons[0].style.marginLeft = "0px";
+    // icons[9].style.marginLeft = "0px";
     
     icons.forEach(icon => {
       icon.addEventListener("mouseover", () => {
@@ -81,8 +137,8 @@ export default class About {
         const originalMargin = parseInt(window.getComputedStyle(icon).margin);
         icon.style.width = originalWidth - 10 + "px";
         icon.style.margin = originalMargin + 5 + "px";
-        icons[0].style.marginLeft = "0px";
-        icons[9].style.marginLeft = "0px";
+        // icons[0].style.marginLeft = "0px";
+        // icons[9].style.marginLeft = "0px";
       });
     });
 
