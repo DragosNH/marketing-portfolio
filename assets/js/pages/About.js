@@ -125,6 +125,13 @@ export default class About {
         <h2 class="diplomas">Diplomes</h2>
         <h3>Titre pro (bac + 2) Développement web et web mobile — Greta Alsace Sud - Mulhouse</h3>
         <h3>Licence (bac + 3) Développement aplications orientée objet — Serfa - Mulhouse</h3>
+      <br /><br />
+
+      <!-- --------- Hobbies ---------  -->
+        <h2 class="hobbies">Loisirs</h2>
+        <p><strong>Dessin :</strong> Conception d'un <a href="https://www.webtoons.com/en/canvas/humphreys-adventures/list?title_no=1077129" target="_blank">Webtoon</a>.</p>
+        <p><strong>Sport :</strong> Entraînement à la salle trois fois par semaine.</p>
+        <p><strong>Lecture :</strong> Passionné par l'univers de la fantasy.</p>
       </section>
     `;
   }

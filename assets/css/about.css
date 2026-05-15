@@ -1,25 +1,56 @@
-.about{
+:root {
+    --primary-blue: #0F1F3A;
+    --primary-orange: #FF7A1A;
+    --bk-color: #F4F4F4;
+    --white: #FFFFFF;
+    --dark-tone: #1A1A1A;
+    --light-blue: #4A5A78;
+    --muted-orange: #F2A45A;
+    --cool-grey: #D9D9D9;
+}
+
+.about {
     margin: 150px 0;
     overflow-x: visible;
-    overflow-y:unset;
+    overflow-y: unset;
 }
 
-.icons{
+.icons {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
-.icon-cont{
+.icon-cont {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.icon-cont p{
-    margin:0;
+.icon-cont p {
+    margin: 0;
 }
 
-.icon{
+.icon {
     width: 50px;
     margin: 15px 15px 15px 15px;
+}
+
+p a {
+    text-decoration: none;
+    color: var(--light-blue);
+    font-weight: 600;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        margin: 150px 50px;
+        overflow-y: hidden;
+    }
+
 }
