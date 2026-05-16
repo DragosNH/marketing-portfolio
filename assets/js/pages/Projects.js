@@ -14,7 +14,7 @@ export default class Home {
             <img src="../../assets/images/logo.webp" class="project-img" />
             <div class="project-txts">
               <p class="project-txt">Le logo réprésent les initialles de mon prénom dans une façon abstracte.</p>
-              <a href="#">Plus d'info ici.</a>
+              <a href="/logoProject" data-link>Plus d'info ici.</a>
             </div>
           </div>
         </div>

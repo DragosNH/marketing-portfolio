@@ -14,5 +14,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    new Navbar();
-  });
+  new Navbar();
+});
+
+document.addEventListener("click", (e) => {
+  if (e.target.matches("[data-link]")) {
+    e.preventDefault();
+    navigate(e.target.href.replace(location.origin, ""));
+  }
+});
