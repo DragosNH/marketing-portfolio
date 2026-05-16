@@ -7,6 +7,7 @@ const routes = {
   "/": Home,
   "/about": About,
   "/projects": Projects,
+  // --- Projects ---
   "/logoProject": LogoProject,
 };
 
