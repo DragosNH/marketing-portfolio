@@ -1,7 +1,7 @@
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import Projects from "./pages/Projects.js";
-import LogoProject from "./pages/logo-project.js";
+import LogoProject from "./pages/LogoProject.js";
 
 const routes = {
   "/": Home,
