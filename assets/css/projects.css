@@ -1,0 +1,12 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+}
+
+.project-img{
+    width: 150px;
+}

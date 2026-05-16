@@ -105,22 +105,25 @@ h1, h2, h3, h4 {
 
 
 /* --------- Scroll animation --------- */
+/*
 .scroll-item {
   opacity: 0;
   transform: translateX(0) translateY(0);
   transition: opacity 0.7s ease-out, transform 0.7s ease-out;
   will-change: transform, opacity;
 }
-
+*/ 
 /* Left → Center */
+/*
 .from-left {
   transform: translateX(-60px);
 }
-
+*/
 /* Right → Center */
+/*
 .from-right {
   transform: translateX(60px);
-}
+}*/
 
 /* When visible */
 .show {
