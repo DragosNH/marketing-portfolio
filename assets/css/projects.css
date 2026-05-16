@@ -1,3 +1,15 @@
+:root {
+  --primary-blue: #0F1F3A;
+  --primary-orange: #FF7A1A;
+  --bk-color: #F4F4F4;
+  --white: #FFFFFF;
+  --dark-tone: #1A1A1A;
+  --light-blue: #4A5A78;
+  --muted-orange: #F2A45A;
+  --cool-grey: #D9D9D9;
+}
+
+
 .project-container{
     display: flex;
     flex-direction: column;
@@ -5,8 +17,19 @@
 
 .content{
     display: flex;
+    align-items: center;
+    border: 5px double var(--primary-orange);
+    border-radius: 7px;
+    padding: 20px;
 }
 
 .project-img{
-    width: 150px;
+    width: 350px;
+    margin-right: 20px;
 }
+
+.project-txts{
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+
