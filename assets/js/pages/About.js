@@ -17,12 +17,14 @@ export default class About {
 
         <div class="skills">
           <h2 class="sub-title">Competences</h2>
-          <p class="skill">Mise en page WordPress.</p>
-          <p class="skill">Gestion des réseaux sociaux.</p>
-          <p class="skill">Conception d'identités visuelles.</p>
-          <p class="skill">Création de contenu visuel et digital.</p>
-          <p class="skill">Conception des sites web & applications mobiles.</p>
-          <p class="skill">Mise en page pour supports digitaux et imprimés.</p>
+          <ul>
+            <li class="skill">Mise en page WordPress.</li>
+            <li class="skill">Gestion des réseaux sociaux.</li>
+            <li class="skill">Conception d'identités visuelles.</li>
+            <li class="skill">Création de contenu visuel et digital.</li>
+            <li class="skill">Conception des sites web & applications mobiles.</li>
+            <li class="skill">Mise en page pour supports digitaux et imprimés.</li>
+          </ul>
         </div>
         <br /><br />
 
