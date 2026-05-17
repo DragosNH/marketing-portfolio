@@ -45,6 +45,18 @@
     margin-right: 25px;
 }
 
+.margin-top{
+    margin-top: 25px;
+}
+
+.margin-bottom{
+    margin-bottom: 25px;
+}
+
+.padding-7px{
+    padding: 7px;
+}
+
 /* ------ Colored shapes ------ */
 .orange{
     background-color: var(--primary-orange);
@@ -58,4 +70,19 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+
+/* ------ Return Button ------ */
+.returnBtn{
+    background-color: var(--primary-blue);
+    color: var(--muted-orange);
+    font-family: 'Montserrat' sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid var(--primary-blue);
+    border-radius: 5px;
+    /* padding: 7px;
+    margin-bottom: 25px; */
+    
 }

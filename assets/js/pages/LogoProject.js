@@ -7,6 +7,7 @@ export default class LogoProject {
         return `
             <section class="project">
                 <h1>Le logo</h1>
+                <br />
                 <section>
                     <h2>Le design</h2>
                     <div class="display-flex">
@@ -24,15 +25,26 @@ export default class LogoProject {
                         </div>
                     </div>
                 </section>
+                <br /><br />
                 <section>
                     <h2>Les couleurs</h2>
-                    <div class="display-flex">
-                        <div class="circle blue margin-right"></div>
-                        <div class="circle orange"></div>
+                    <div class="display-flex column">
+                        <div>
+                            <div class="circle blue margin-bottom"></div>
+                            <p><code>#0F1F3A</code> Un bleu foncé qui représente l'innovation et le progrès.</p>
+                        </div>
+                        <div>
+                            <div class="circle orange"></div>
+                            <p><code>#FF7A1A</code> Un orange qui représente la curiosité et la créativité.</p>
+                        </div>
                     </div>
+
                 </section>
+                <br /><br />
                 
-                <a href="/projects" data-link>Revenir en arriere.</a>
+                <a href="/projects" data-link class="returnBtn padding-7px">Revenir en arriere</a>
+                <br /><br /><br />
+
             </section>
         `
     }
