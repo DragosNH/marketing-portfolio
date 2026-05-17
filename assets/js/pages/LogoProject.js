@@ -5,10 +5,12 @@ export default class LogoProject {
 
     render() {
         return `
-            <h1>Le logo</h1>
-            <p>Lorem ipsum dolores ....</p>
-
-            <a href="/projects" data-link>Revenir en arriere.</a>
+            <section class="project">
+                <h1>Le logo</h1>
+                <p>Lorem ipsum dolores ....</p>
+                
+                <a href="/projects" data-link>Revenir en arriere.</a>
+            </section>
         `
     }
 

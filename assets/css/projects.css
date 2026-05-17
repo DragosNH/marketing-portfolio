@@ -20,10 +20,10 @@
 
 .content{
     display: flex;
-    align-items: center;
     border: 5px double var(--primary-orange);
     border-radius: 7px;
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 .project-img{

@@ -9,8 +9,8 @@ export default class Home {
         <h1>Mes projets</h1>
 
         <div class="scroll-item project-container">
-          <h2 class="project-subtitle">Le logo actuel</h2>
-          <div class="content">
+        <h2 class="project-subtitle">Le logo actuel</h2>
+        <div class="content">
             <img src="../../assets/images/logo.webp" class="project-img" />
             <div class="project-txts">
               <p class="project-txt">Le logo réprésent les initialles de mon prénom dans une façon abstracte.</p>
