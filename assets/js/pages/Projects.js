@@ -26,7 +26,7 @@ export default class Home {
           <div class="content">
             <img src="../../assets/images/pej-logo.png" class="project-img" />
             <div class="project-txts">
-              <p class="project-txt">Ici ca se trouve tout ce que j'ai fait pendant mon stage effectuée dans le cadre de ma licence.</p>
+              <p class="project-txt">Ici ca se trouve tout ce que j'ai fait pendant mon stage effectuée dans le cadre de ma licence. Une aplication mobile, un site web mais aussi des affiches.</p>
               <a href="/pej" data-link>Plus d'infos ici.</a>
             </div>
            </div>
