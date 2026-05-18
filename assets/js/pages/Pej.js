@@ -54,9 +54,9 @@ export default class Pej{
                     <h2>Les afiches</h2>
                     <div class="display-flex">
                         <div class="posters">
-                            <img src="../../assets/images/pej-logo.png" alt="Logo Patrimoine en jeu" class="project-img" />
-                            <img src="../../assets/images/pej-logo.png" alt="Logo Patrimoine en jeu" class="project-img" />
-                            <img src="../../assets/images/pej-logo.png" alt="Logo Patrimoine en jeu" class="project-img" />
+                            <img src="../../assets/images/poster-one.png" alt="Logo Patrimoine en jeu" class="project-img" />
+                            <img src="../../assets/images/poster-two.png" alt="Logo Patrimoine en jeu" class="project-img" />
+                            <img src="../../assets/images/poster-three.png" alt="Logo Patrimoine en jeu" class="project-img" />
                         </div>
                         <p>Ce logo est très minimaliste, mais il contient les lettres « P » et « J » intégrées dans un carré.</p>
                     </div>
