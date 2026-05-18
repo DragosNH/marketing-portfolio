@@ -26,8 +26,8 @@ export default class Home {
           <div class="content">
             <img src="../../assets/images/pej-logo.png" class="project-img" />
             <div class="project-txts">
-              <p class="project-txt">Ce logo est très minimaliste mais il contient les lettres "P" et "J" dans un carré.</p>
-              <a href="/pej" data-link>Plus d'info ici.</a>
+              <p class="project-txt">Ce logo est très minimaliste, mais il contient les lettres « P » et « J » intégrées dans un carré.</p>
+              <a href="/pej" data-link>Plus d'infos ici.</a>
             </div>
            </div>
         </div>

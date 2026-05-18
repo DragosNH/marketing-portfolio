@@ -9,14 +9,15 @@ export default class Pej{
                 <h1>Patrimoine en jeu</h1>
                 <br />
                 <h2>Le projet</h2>
-                <p>Pendant mon stage chez Push Architecture, j'ai réalisée plusieurs projets autur de troix mois. Comme:</p>
+                <p>Pendant mon stage chez Push Architecture, j'ai réalisé plusieurs projets sur une période d'environ trois mois, tels que :</p>
                 <ul>
-                    <li>Application moblie basée sur la realitée virtuelle.</li>
-                    <li>Site web en WorldPress afin de présenter l'association "Patrimoine en jeu" et l'aplication.</li>
-                    <li>L'identitée visuelle de l'application & site web.</li>
-                    <li>Une affiche ayant pourbut de presenter l'association à l'assamblé géneralle de <a href="https://www.asma.fr/">l'ASMA.</a></li>
+                    <li>Une application mobile basée sur la réalité virtuelle.</li>
+                    <li>Un site web sous WordPress pour présenter l'association « Patrimoine en jeu » et l'application.</li>
+                    <li>L'identité visuelle de l'application et du site web.</li>
+                    <li>Une affiche destinée à présenter l'association lors de l'assemblée générale de <a href="https://www.asma.fr" target="_blank">l’ASMA</a>.</li>
                 </ul>
             </section>
+
         `
     }
 
