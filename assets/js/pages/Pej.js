@@ -13,6 +13,7 @@ export default class Pej{
                 <ul>
                     <li>Application moblie basée sur la realitée virtuelle.</li>
                     <li>Site web en WorldPress afin de présenter l'association "Patrimoine en jeu" et l'aplication.</li>
+                    <li>L'identitée visuelle de l'application & site web.</li>
                     <li>Une affiche ayant pourbut de presenter l'association à l'assamblé géneralle de <a href="https://www.asma.fr/">l'ASMA.</a></li>
                 </ul>
             </section>
