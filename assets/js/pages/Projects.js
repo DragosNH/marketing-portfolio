@@ -8,17 +8,30 @@ export default class Home {
       <section class="projects">
         <h1>Mes projets</h1>
 
+        <!-- My Logo -->
         <div class="scroll-item project-container">
-        <h2 class="project-subtitle">Le logo actuel</h2>
-        <div class="content">
-            <img src="../../assets/images/logo.webp" class="project-img" />
-            <div class="project-txts">
-              <p class="project-txt">Le logo réprésent les initialles de mon prénom dans une façon abstracte.</p>
-              <a href="/logoProject" data-link>Plus d'info ici.</a>
+          <h2 class="project-subtitle">Le logo actuel</h2>
+          <div class="content">
+              <img src="../../assets/images/logo.webp" class="project-img" />
+              <div class="project-txts">
+                <p class="project-txt">Le logo réprésent les initialles de mon prénom dans une façon abstracte.</p>
+                <a href="/logoProject" data-link>Plus d'info ici.</a>
+              </div>
             </div>
-          </div>
         </div>
-        <div class="scroll-item">Item 2</div>
+
+        <!-- Pej -->
+        <div class="scroll-item">
+          <h2 class="project-subtitle">Le logo actuel</h2>
+          <div class="content">
+            <img src="../../assets/images/pej-logo.png" class="project-img" />
+            <div class="project-txts">
+              <p class="project-txt">Ce logo est très minimaliste mais il contient les lettres "P" et "J" dans un carré.</p>
+              <a href="/pej" data-link>Plus d'info ici.</a>
+            </div>
+           </div>
+        </div>
+
         <div class="scroll-item">Item 3</div>
         <div class="scroll-item">Item 4</div>
 
