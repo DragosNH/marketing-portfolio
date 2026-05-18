@@ -16,6 +16,11 @@ export default class Pej{
                     <li>L'identité visuelle de l'application et du site web.</li>
                     <li>Une affiche destinée à présenter l'association lors de l'assemblée générale de <a href="https://www.asma.fr" target="_blank">l’ASMA</a>.</li>
                 </ul>
+                <h2>Le logo</h2>
+                <div class="display-flex">
+                    <img src="../../assets/images/pej-logo.png" alt="Logo Patrimoine en jeu" class="project-img" />
+                    <p>Ce logo est très minimaliste, mais il contient les lettres « P » et « J » intégrées dans un carré.</p>
+                </div>
             </section>
 
         `
