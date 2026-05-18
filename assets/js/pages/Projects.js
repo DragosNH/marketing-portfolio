@@ -22,7 +22,7 @@ export default class Home {
 
         <!-- Pej -->
         <div class="scroll-item">
-          <h2 class="project-subtitle">Le logo actuel</h2>
+          <h2 class="project-subtitle">Patrimoine en jeu</h2>
           <div class="content">
             <img src="../../assets/images/pej-logo.png" class="project-img" />
             <div class="project-txts">
