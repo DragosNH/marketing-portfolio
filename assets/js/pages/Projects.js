@@ -64,7 +64,7 @@ export default class Home {
       const scrollY = window.scrollY;
 
       items.forEach((item) => {
-        const speed = item.dataset.speed || 0.2; // default parallax speed
+        const speed = item.dataset.speed || 0.5; // default parallax speed
         const offset = scrollY * speed;
 
         // Only apply parallax BEFORE reveal
