@@ -1,4 +1,4 @@
-export default class Pej{
+export default class Pej {
     constructor() {
         this.title = "PEJ";
     }
@@ -11,12 +11,12 @@ export default class Pej{
 
                 <section>
                     <h2>Le projet</h2>
-                    <p>Pendant mon stage chez Push Architecture, j'ai réalisé plusieurs projets sur une période d'environ trois mois, tels que :</p>
+                    <p>Pendant mon stage chez Push Architecture, j’ai réalisé plusieurs projets sur une période d’environ trois mois, tels que :</p>
                     <ul>
                         <li>Une application mobile basée sur la réalité virtuelle.</li>
-                        <li>Un site web sous WordPress pour présenter l'association « Patrimoine en jeu » et l'application.</li>
-                        <li>L'identité visuelle de l'application et du site web.</li>
-                        <li>Une affiche destinée à présenter l'association lors de l'assemblée générale de <a href="https://www.asma.fr" target="_blank">l’ASMA</a>.</li>
+                        <li>Un site web sous WordPress pour présenter l’association « Patrimoine en jeu » et l’application.</li>
+                        <li>L’identité visuelle de l’application et du site web.</li>
+                        <li>Une affiche destinée à présenter l’association lors de l’assemblée générale de <a href="https://www.asma.fr" target="_blank">l’ASMA</a>.</li>
                     </ul>
                 </section>
                 <br /><br />
@@ -31,12 +31,16 @@ export default class Pej{
                 <br /><br />
 
                 <section>
-                    <h2>L'application mobile</h2>
+                    <h2>L’application mobile</h2>
                     <div class="display-flex">
                         <p>
-                            L'application as pourbout de faire revivre le patrimone alsacien avec l'aide de la réalité augmentée. Avec des modèeles 3D realisées en SketchUp, je les ai integrée dans Unity et j'ai fait l'inetearaction en C# puis le Backend en Django avec une base de donnes en PoscreSQL. Cette application fait réaparetre les batimenst dans leurs endroit d'origine en prenent les coordonnées GPS du telephone. L'application réalisée est seulement un démo et l'association cherche a l'heure actuelle des sponosrisation afin de pouvoir finir l'application et l'integrer dans <a href="https://glad.bretagne.bzh/" target="_blank">GLAD</a> vue que l'association est en parteneriat avec eux..
+                            L’application a pour but de faire revivre le patrimoine alsacien grâce à la réalité augmentée. 
+                            À partir de modèles 3D réalisés dans SketchUp, je les ai intégrés dans Unity, puis j’ai développé les interactions en C#. 
+                            J’ai ensuite créé le backend en Django avec une base de données PostgreSQL. 
+                            L’application permet de faire réapparaître les bâtiments à leur emplacement d’origine en utilisant les coordonnées GPS du téléphone. 
+                            La version réalisée est une démo, et l’association recherche actuellement des sponsors afin de finaliser l’application et de l’intégrer à <a href="https://glad.bretagne.bzh/" target="_blank">GLAD</a>, avec qui elle est en partenariat.
                         </p>
-                        <img src="../../assets/images/ar.gif" alt="Logo Patrimoine en jeu" class="project-img" />
+                        <img src="../../assets/images/ar.gif" alt="Aperçu de l'application en réalité augmentée" class="project-img" />
                     </div>
                 </section>
                 <br /><br />
@@ -44,31 +48,50 @@ export default class Pej{
                 <section>
                     <h2>Le site web</h2>
                     <p>
-                        Pour le site web de l'association "Patrimoine en jeu" je l'ai rèalisée avec de la mise en page WordPress, sur la theme "Twenty-Twenty three" avec pourbut de presentaer l'association, les projets de l'association en restution des batiements alsaciennes mais aussi l'aplication mobile. Le site web peut etre consultée en <a href="https://pej.alsace/" target="_blank">cliquant ici</a>.
+                        Pour le site web de l’association « Patrimoine en jeu », je l’ai réalisé avec une mise en page WordPress, 
+                        sur le thème « Twenty Twenty‑Three », afin de présenter l’association, ses projets de restitution de bâtiments alsaciens, 
+                        ainsi que l’application mobile.  
+                        Le site peut être consulté en <a href="https://pej.alsace/" target="_blank">cliquant ici</a>.
                     </p>
-                    </div>
                 </section>
                 <br /><br />
 
                 <section>
                     <h2>Les afiches</h2>
                     <div class="display-flex">
-                        <div class="posters">
-                            <img src="../../assets/images/poster-one.png" alt="Logo Patrimoine en jeu" class="project-img" />
-                            <img src="../../assets/images/poster-two.png" alt="Logo Patrimoine en jeu" class="project-img" />
-                            <img src="../../assets/images/poster-three.png" alt="Logo Patrimoine en jeu" class="project-img" />
+                        <div>
+                            <img src="../../assets/images/poster-one.png" alt="Logo Patrimoine en jeu" class="project-img posters" />
+                            <img src="../../assets/images/poster-two.png" alt="Logo Patrimoine en jeu" class="project-img posters hidden" />
+                            <img src="../../assets/images/poster-three.png" alt="Logo Patrimoine en jeu" class="project-img posters hidden" />
                         </div>
-                        <p>Ce logo est très minimaliste, mais il contient les lettres « P » et « J » intégrées dans un carré.</p>
+                        <p>
+                            Les affiches, je les ai réalisées car, vers la fin de mon stage, mon tuteur et moi avons participé à l’assemblée générale de l’ASMA. Pendant cette assemblée, nous avions un stand sur lequel nous avons pu présenter notre projet aux membres de l’ASMA, aux invités ainsi qu’aux autres visiteurs (Cliquez sur l’image pour afficher l’affiche suivante).
+                        </p>
                     </div>
                 </section>
                 <br /><br />
+
+                <a href="/projects" data-link class="returnBtn padding-7px">Revenir en arriere</a>
+                <br /><br /><br />
 
             </section>
 
         `
     }
 
-    afterRender(){
+    afterRender() {
+        const posters = document.querySelectorAll(".posters");
+        let index = 0;
+
+        const caroussel = () => {
+            posters[index].classList.add("hidden");
+            index = (index + 1) % posters.length;
+            posters[index].classList.remove("hidden");
+        }
+
+        posters.forEach(poster => {
+            poster.addEventListener("click", caroussel);
+        });
 
     }
 }
