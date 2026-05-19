@@ -78,11 +78,61 @@ export default class Lingva {
                 </section>
                 <br /><br />
 
+                <section>
+                    <h2>Les ecrains</h2>
+                    <div class="display-flex align-center">
+                        <div>
+                            <img src="../../assets/images/lingva/p_1.jpg" alt="Lingva Logo" class="project-img screens" />
+                            <img src="../../assets/images/lingva/p_2.jpg" alt="Lingva Logo" class="project-img screens hidden" />
+                            <img src="../../assets/images/lingva/p_3.jpg" alt="Lingva Logo" class="project-img screens hidden" />
+                            <img src="../../assets/images/lingva/p_4.jpg" alt="Lingva Logo" class="project-img screens hidden" />
+                            <img src="../../assets/images/lingva/p_5.jpg" alt="Lingva Logo" class="project-img screens hidden" />
+                        </div>
+                        <div>
+                            <p>
+                                Ceci sont les ecrains qui represent la navigation sur l'application souhuatée sur le telephone. 
+                                <ul><p>L'application contient: </p>
+                                    <li>Cours suivi par un proffesseur </li>
+                                        <ul>L'apprentisage contient:
+                                            <li>Cours parlé</li>
+                                            <li>Cours ecrit</li>
+                                            <li>Cours a l'ecoute</li>
+                                        </ul>
+                                    <li>Cours suivi par l'IA </li>
+                                        <ul>L'apprentisage contient:
+                                            <li>Cours parlé</li>
+                                            <li>Cours ecrit</li>
+                                            <li>Cours a l'ecoute</li>
+                                        </ul>
+                                    <li>Jouer en apprenant </li>
+                                        <ul>L'apprentisage contient:
+                                            <li>Mots croissées</li>
+                                            <li>Matcher des mots</li>
+                                            <li>Charades</li>
+                                        </ul>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <br /><br />
+
             </section>
         `
     };
 
     afterRender() {
+        const screens = document.querySelectorAll(".screens");
+        let index = 0;
 
+        const caroussel = () => {
+            screens[index].classList.add("hidden");
+            index = (index + 1) % screens.length;
+            screens[index].classList.remove("hidden");
+        };
+
+        screens.forEach(screen => {
+            screen.addEventListener("click", caroussel);
+        });
     };
 }
