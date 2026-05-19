@@ -64,12 +64,12 @@ export default class Lingva {
                     <h2>Les badges</h2>
                     <div class="display-flex column">
                         <div class="display-flex wrap">
-                            <img src="../../assets/images/lingva/achivement_1.webp" alt="Lingva Logo" class="project-badge margin-20px" />
-                            <img src="../../assets/images/lingva/achivement_2.webp" alt="Lingva Logo" class="project-badge margin-20px" />
-                            <img src="../../assets/images/lingva/achivement_3.webp" alt="Lingva Logo" class="project-badge margin-20px" />
-                            <img src="../../assets/images/lingva/achivement_4.webp" alt="Lingva Logo" class="project-badge margin-20px" />
-                            <img src="../../assets/images/lingva/achivement_5.webp" alt="Lingva Logo" class="project-badge margin-20px" />
-                            <img src="../../assets/images/lingva/achivement_6.webp" alt="Lingva Logo" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_1.webp" alt="Lingva badge 1" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_2.webp" alt="Lingva badge 2" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_3.webp" alt="Lingva badge 3" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_4.webp" alt="Lingva badge 4" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_5.webp" alt="Lingva badge 5" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_6.webp" alt="Lingva badge 6" class="project-badge margin-20px" />
                         </div>
                         <p>
                             L'application, as aussi un systeme de recompensses prévu, qui pour ce petit projet, va promover la consistance et aussi le travail assidu.
@@ -82,11 +82,11 @@ export default class Lingva {
                     <h2>Les ecrains</h2>
                     <div class="display-flex align-center">
                         <div>
-                            <img src="../../assets/images/lingva/p_1.jpg" alt="Lingva Logo" class="project-img screens" />
-                            <img src="../../assets/images/lingva/p_2.jpg" alt="Lingva Logo" class="project-img screens hidden" />
-                            <img src="../../assets/images/lingva/p_3.jpg" alt="Lingva Logo" class="project-img screens hidden" />
-                            <img src="../../assets/images/lingva/p_4.jpg" alt="Lingva Logo" class="project-img screens hidden" />
-                            <img src="../../assets/images/lingva/p_5.jpg" alt="Lingva Logo" class="project-img screens hidden" />
+                            <img src="../../assets/images/lingva/p_1.jpg" alt="Lingva first screen" class="project-img screens" />
+                            <img src="../../assets/images/lingva/p_2.jpg" alt="Lingva second screen" class="project-img screens hidden" />
+                            <img src="../../assets/images/lingva/p_3.jpg" alt="Lingva third screen" class="project-img screens hidden" />
+                            <img src="../../assets/images/lingva/p_4.jpg" alt="Lingva forth screen" class="project-img screens hidden" />
+                            <img src="../../assets/images/lingva/p_5.jpg" alt="Lingva fifth screen" class="project-img screens hidden" />
                         </div>
                         <div>
                             <p>
@@ -117,22 +117,54 @@ export default class Lingva {
                 </section>
                 <br /><br />
 
+                <section>
+                    <h2>Le Mockup</h2>
+                    <div class="display-flex align-center">
+                        <p>
+                            Pour donner plus de credibilitée par rapport a l'application, j'ai aussi consu un Mockup qui permet de voir a quoi l'application peut ressembler sur un telephone mobil.
+                        </p>
+                        <img src="../../assets/images/lingva/phone_mockup.png" alt="Phone Mockup Logo" class="project-mascot" />
+                    </div>
+                </section>
+                <br /><br />
+
+                <section>
+                    <h2>Le Simulateur</h2>
+                    <div class="display-flex align-center">
+                        <div>
+                            <img src="../../assets/images/lingva/simulator_1.jpg" alt="Lingva first screen" class="project-img simulator" />
+                            <img src="../../assets/images/lingva/simulator_2.jpg" alt="Lingva second screen" class="project-img simulator hidden" />
+                        </div>
+                        <p>
+                            A la fin du projet, nous avons eu l'idée de faire un stye lde jeu de simulation, qui permet aux utilisateurs premium, d'acceder a un simulateur ou ils peuvent interagir avec des personnages fictives (Mr.Bulbkins en plusieurs rôles), mais aussi aevec des autres utilisateurs dans un milieu virtuel. 
+                            <br />
+                            Les utilisateurs peuvent aussi se retrouver dans des endroits telles que Café, Cinema, Hopital etc. tant que client/pacient mais aussi tant que personnel. affin d'apprendre le language professionnel dans un certain secteur.
+                        </p>
+                    </div>
+                </section>
+                <br /><br />
+
             </section>
         `
     };
 
     afterRender() {
-        const screens = document.querySelectorAll(".screens");
-        let index = 0;
+        const setupCarousel = (selector) => {
+            const imgs = document.querySelectorAll(selector);
+            let index = 0;
 
-        const caroussel = () => {
-            screens[index].classList.add("hidden");
-            index = (index + 1) % screens.length;
-            screens[index].classList.remove("hidden");
+            const next = () => {
+                imgs[index].classList.add("hidden");
+                index = (index + 1) % imgs.length;
+                imgs[index].classList.remove("hidden");
+            };
+
+            imgs.forEach(img => img.addEventListener("click", next));
         };
 
-        screens.forEach(screen => {
-            screen.addEventListener("click", caroussel);
-        });
-    };
+        setupCarousel(".screens");
+        setupCarousel(".simulator");
+    }
+
+
 }
