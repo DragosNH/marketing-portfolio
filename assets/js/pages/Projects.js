@@ -32,8 +32,19 @@ export default class Home {
            </div>
         </div>
 
-        <div class="scroll-item">Item 3</div>
-        <div class="scroll-item">Item 4</div>
+      <!-- Lingva -->
+        <div class="scroll-item">
+        <h2 class="project-subtitle">Lingva</h2>
+          <div class="content">
+            <img src="../../assets/images/lingva/lingva_logo.webp" alt="Lingva Logo" class="project-img" />
+            <div class="project-txts">
+              <p class="project-txt">Ceci est un projet réalisé pendant ma licence, dans le cadre du cours d'anglais. Nous avons dû élaborer une stratégie de développement et de marketing pour une application d'apprentissage des langues, style Duolingo.</p>
+              <a href="/pej" data-link>Plus d'infos ici.</a>
+            </div>
+           </div>
+        </div>
+
+        <!-- <div class="scroll-item">Item 4</div> -->
 
       </section>
     `;
