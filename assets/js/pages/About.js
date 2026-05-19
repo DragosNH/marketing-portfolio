@@ -114,6 +114,32 @@ export default class About {
         </div>
         <br /><br />
 
+      <!-- --------- Coding Skills ---------  -->
+        <h2 class="sub-title">Competences logiciels Microsoft</h2>
+        <div class="icons">
+          <div class="icon-cont">
+            <img src="../../../assets/images/software/word.webp" alt="Microsoft Word Logo" class="icon" />
+            <p>Word</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/software/powerpoint.webp" alt="Microsoft PowerPoint Logo" class="icon" />
+            <p>PowerPoint</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/software/exel.webp" alt="Microsoft Excel Logo" class="icon" />
+            <p>JavaScript</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/software/clipchamp.webp" alt="Microsoft Clipchamp Logo" class="icon" />
+            <p>Clipchamp</p>
+          </div>
+          <div class="icon-cont">
+            <img src="../../../assets/images/software/vs_code.webp" alt="Visual Code Logo" class="icon" />
+            <p>Visual Code</p>
+          </div>
+        </div>
+        <br /><br />
+
       <!-- --------- Languages ---------  -->
         <h2 class="sub-title">Langues</h2>
         <div class="languages">
@@ -123,7 +149,7 @@ export default class About {
         </div>
         <br /><br />
 
-      <!-- --------- Languages ---------  -->
+      <!-- --------- Studies ---------  -->
         <h2 class="diplomas">Diplomes</h2>
         <h3>Titre pro (bac + 2) Développement web et web mobile — Greta Alsace Sud - Mulhouse</h3>
         <h3>Licence (bac + 3) Développement aplications orientée objet — Serfa - Mulhouse</h3>
