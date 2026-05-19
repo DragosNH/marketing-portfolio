@@ -3,6 +3,7 @@ import About from "./pages/About.js";
 import Projects from "./pages/Projects.js";
 import LogoProject from "./pages/LogoProject.js";
 import Pej from "./pages/pej.js";
+import Lingva from "./pages/Lingva.js";
 
 const routes = {
   "/": Home,
@@ -11,6 +12,8 @@ const routes = {
   // --- Projects ---
   "/logoProject": LogoProject,
   "/pej" : Pej,
+  "/lingva": Lingva,
+  
 };
 
 export function navigate(path) {

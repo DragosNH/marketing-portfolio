@@ -39,7 +39,7 @@ export default class Home {
             <img src="../../assets/images/lingva/lingva_logo.webp" alt="Lingva Logo" class="project-img" />
             <div class="project-txts">
               <p class="project-txt">Ceci est un projet réalisé pendant ma licence, dans le cadre du cours d'anglais. Nous avons dû élaborer une stratégie de développement et de marketing pour une application d'apprentissage des langues, style Duolingo.</p>
-              <a href="/pej" data-link>Plus d'infos ici.</a>
+              <a href="/lingva" data-link>Plus d'infos ici.</a>
             </div>
            </div>
         </div>
