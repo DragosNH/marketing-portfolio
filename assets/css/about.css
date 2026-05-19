@@ -37,26 +37,7 @@
     margin: 15px 15px 15px 15px;
 }
 
-p a {
-    text-decoration: none;
-    color: var(--light-blue);
-    font-weight: 600;
-}
 
-
-p a:hover {
-    text-decoration: underline;
-}
-
-li a{
-    text-decoration: none;
-    color: var(--light-blue);
-    font-weight: 600;
-}
-
-li a:hover {
-    text-decoration: underline;
-}
 
 @media only screen and (max-width: 600px) {
     .about {
