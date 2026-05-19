@@ -43,7 +43,18 @@ p a {
     font-weight: 600;
 }
 
+
 p a:hover {
+    text-decoration: underline;
+}
+
+li a{
+    text-decoration: none;
+    color: var(--light-blue);
+    font-weight: 600;
+}
+
+li a:hover {
     text-decoration: underline;
 }
 
