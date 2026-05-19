@@ -149,7 +149,7 @@ export default class Lingva {
     };
 
     afterRender() {
-        const setupCarousel = (selector) => {
+        const setupCarousel = (selector, interval = 2000) => {
             const imgs = document.querySelectorAll(selector);
             let index = 0;
 
@@ -160,10 +160,11 @@ export default class Lingva {
             };
 
             imgs.forEach(img => img.addEventListener("click", next));
+            setInterval(next, interval);
         };
 
-        setupCarousel(".screens");
-        setupCarousel(".simulator");
+        setupCarousel(".screens", 2500);
+        setupCarousel(".simulator", 3000);
     }
 
 
