@@ -39,6 +39,10 @@
     flex-direction: column;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 /* ------ Margins & Padings ------ */
 /* --- Margins --- */
 .margin-left{
@@ -55,6 +59,10 @@
 
 .margin-bottom{
     margin-bottom: 25px;
+}
+
+.margin-20px{
+    margin: 20px;
 }
 
 .padding-7px{

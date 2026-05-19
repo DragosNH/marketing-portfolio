@@ -37,6 +37,26 @@ export default class Lingva {
                 </section>
                 <br /><br />
 
+                <section>
+                    <h2>Les badges</h2>
+                    <div class="display-flex column">
+                        <div class="display-flex wrap">
+                            <img src="../../assets/images/lingva/achivement_1.webp" alt="Lingva Logo" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_2.webp" alt="Lingva Logo" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_3.webp" alt="Lingva Logo" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_4.webp" alt="Lingva Logo" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_5.webp" alt="Lingva Logo" class="project-badge margin-20px" />
+                            <img src="../../assets/images/lingva/achivement_6.webp" alt="Lingva Logo" class="project-badge margin-20px" />
+                        </div>
+                        <p>
+                            Mr. Bulpkins, est la mascote que j'ai réalisée afin d'aider l'utilisateur pendant son voyage d'apprentisage, et pour donnéer une idéntitée visuelle. 
+                            <br />
+                            Nous avos chois l'empoule car c'est un objet qui represent le progress et l'inovation depuis tout le tmps et on as bien jouée avec les formes dong le fialement as un aspect de cravate et on lui as mis des lunettes afin de pusser le stereotype d'un professeur. 
+                        </p>
+                    </div>
+                </section>
+                <br /><br />
+
             </section>
         `
     };

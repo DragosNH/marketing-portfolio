@@ -37,6 +37,10 @@
     margin-right: 20px;
 }
 
+.project-badge{
+    width: 120px;
+}
+
 .project-txts{
     font-size: 1.3em;
     margin-left: 20px;
