@@ -38,6 +38,29 @@ export default class Lingva {
                 <br /><br />
 
                 <section>
+                    <h2>Les coulleurs</h2>
+                    <div class="display-flex column">
+                        <div class="display-flex wrap">
+                            <div class="circle lingva-grey margin-20px"></div>
+                            <div class="circle lingva-blue margin-20px"></div>
+                            <div class="circle lingva-yellow margin-20px"></div>
+                            <div class="circle lingva-lightgreen margin-20px"></div>
+                            <div class="circle lingva-darkgreen margin-20px"></div>
+                        </div>
+                        <p>
+                            Chaque couleur as un objectif precis dans la palette des couleurs:
+                            <ul>
+                                <li>Le gris: Equilibre & adaptabilité</li>
+                                <li>Le bleu: Inovation & technologie </li>
+                                <li>Le jeunne: Pour attirrer l'attention sur les details</li>
+                                <li>Les verts: Pour un effect de calme afin de créer un environement d'apprentisage</li>
+                            </ul> 
+                        </p>
+                    </div>
+                </section>
+                <br /><br />
+
+                <section>
                     <h2>Les badges</h2>
                     <div class="display-flex column">
                         <div class="display-flex wrap">
@@ -49,9 +72,7 @@ export default class Lingva {
                             <img src="../../assets/images/lingva/achivement_6.webp" alt="Lingva Logo" class="project-badge margin-20px" />
                         </div>
                         <p>
-                            Mr. Bulpkins, est la mascote que j'ai réalisée afin d'aider l'utilisateur pendant son voyage d'apprentisage, et pour donnéer une idéntitée visuelle. 
-                            <br />
-                            Nous avos chois l'empoule car c'est un objet qui represent le progress et l'inovation depuis tout le tmps et on as bien jouée avec les formes dong le fialement as un aspect de cravate et on lui as mis des lunettes afin de pusser le stereotype d'un professeur. 
+                            L'application, as aussi un systeme de recompensses prévu, qui pour ce petit projet, va promover la consistance et aussi le travail assidu.
                         </p>
                     </div>
                 </section>
